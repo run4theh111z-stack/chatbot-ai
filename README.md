@@ -13,7 +13,7 @@ Prosty, ale rozbudowany chatbot wykorzystujący **LangChain**, **OpenAI GPT**, *
 
 ## 🚀 Demo
 
-[alt text](demo-1.gif)
+![Demo działania chatbota](demo.gif)
 
 ---
 
