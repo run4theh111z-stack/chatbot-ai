@@ -13,7 +13,7 @@ Prosty, ale rozbudowany chatbot wykorzystujący **LangChain**, **OpenAI GPT**, *
 
 ## 🚀 Demo
 
-    
+[alt text](demo-1.gif)
 
 ---
 
@@ -57,7 +57,7 @@ chatbot-ai/
    pip install -r requirements.txt
    ```
 
-3. **Utwórz plik **``** i dodaj klucz OpenAI:**
+3. **Utwórz plik ****\`\`**** i dodaj klucz OpenAI:**
 
    ```env
    OPENAI_API_KEY=sk-XXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -86,41 +86,8 @@ chatbot-ai/
 
 ---
 
-## 🎨 Stylizacja: tryb ciemny
-
-Aby nadać aplikacji ciemne tło i zachować dobrą czytelność, można w `app.py` dodać:
-
-```python
-st.markdown("""
-    <style>
-    body {
-        background-color: #0b0f19;
-        color: #f0f2f6;
-    }
-    .stTextInput>div>div>input,
-    .stTextArea>div>textarea,
-    .stSelectbox>div>div {
-        background-color: #1e222e;
-        color: #f0f2f6;
-    }
-    .css-1d391kg, .css-1v0mbdj {
-        background-color: #0b0f19 !important;
-    }
-    </style>
-""", unsafe_allow_html=True)
-```
-
 ---
 
 ## 📜 Licencja
 
 MIT License — możesz korzystać, modyfikować i rozwijać swobodnie.
-
----
-
-## 📫 Kontakt
-
-Michał Kowalewski\
-📧 [kowalewski.michal04@gmail.com](mailto\:kowalewski.michal04@gmail.com)\
-🌐 [GitHub](https://github.com/run4theh111z-stack)
-
